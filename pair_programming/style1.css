@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0 20px;
+}
+
+/* nav */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+
+.nav__left {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo__img img {
+  width: 70px;
+  height: 70px;
+}
+
+.logo__text {
+  color: #202020;
+  text-align: center;
+}
+
+.logo__text-big {
+  font-family: 'Song Myung', serif;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.logo__text-small {
+  font-weight: 300;
+}
+
+.nav__right a {
+  text-decoration: none;
+  color: blue;
+}
+
+.contents {
+  display: flex;
+  gap: 50px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-top: 50px;
+  gap: 11px;
+}
+
+
+.left a {
+  text-decoration: none;
+  color: blue;
+}
+
+.center-contents {
+  display: flex;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+h2 {
+  border-bottom: 1px solid black;
+}
+
+.center-right img {
+  width:360px;
+}
+
+h3 {
+  margin-top: 60px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid black;
+}
+
+.footer {
+  height: 300px;
+  background-color: #202020;
+  margin: 40px auto 0;
+  padding: 50px 0;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .social {
+  display: flex;
+  gap: 12px;
+}
+
+.footer .social .social-icon {
+  width: 50px;
+  height: 50px;
+  padding: 12px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .social .social-icon i {
+  color: #202020;
+  font-size: 24px;
+}
+
+.footer .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer .info span {
+  opacity: .3;
+}
+
+.footer .info .info-link {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+
+.footer .info .info-link a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul {
+  padding-left: 20px;
+}
