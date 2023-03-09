@@ -24,3 +24,33 @@ print(f"{n:.2f}")
 # 반올림하는거 f안썼네
 
 #6
+n = float(input())
+print(f"{n*30.48:.1f}")
+# 연산가능
+
+#7
+a = float(input())
+print(f"{a+1.5:.2f}")
+# 연산가능
+
+#8
+a,b = map(int,input().split())
+print(a*b)
+# 공백을 두고 두 수 입력받아 곱해주기
+
+#9
+a,b = map(int,input().split())
+print(a+b)
+# 위와 같음
+
+#10
+a,b = map(int,input().split())
+a,b = b,a
+print(a,b)
+# 두 수 위치 바꿔주기
+
+#11
+a,b = map(int,input().split())
+print(a,b,a+b)
+
+#12
